@@ -1,0 +1,1 @@
+# nuxt2.4-typescript-sample
