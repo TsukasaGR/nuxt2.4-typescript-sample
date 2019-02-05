@@ -1,6 +1,5 @@
 const pkg = require('./package')
 
-
 module.exports = {
   mode: 'universal',
   srcDir: 'src/',
@@ -50,8 +49,8 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
+    // extend(config, ctx) {
 
-    }
+    // }
   }
 }

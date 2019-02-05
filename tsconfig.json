@@ -1,0 +1,16 @@
+{
+  "extends": "@nuxt/typescript",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noImplicitAny": false,
+    "types": [
+      "@types/node",
+      "@nuxt/vue-app"
+    ],
+    "experimentalDecorators": true, // vueでdecoratorを使った場合のエラー回避用
+    // srcDirを./srcに変更している為の対応
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  }
+}
