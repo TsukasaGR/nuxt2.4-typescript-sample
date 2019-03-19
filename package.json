@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt-ts": "latest",
+    "nuxt-ts": "^2.4.5",
     "vue-property-decorator": "^7.3.0"
   },
   "devDependencies": {

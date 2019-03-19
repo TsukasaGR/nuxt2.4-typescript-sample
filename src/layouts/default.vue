@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header />
-    <nuxt />
+    <Header/>
+    <nuxt/>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ import Header from '~/layouts/header.vue'
     Header
   }
 })
-export default class PagesIndex extends Vue {}
+export default class LayoutsDefault extends Vue {}
 </script>
 
 
